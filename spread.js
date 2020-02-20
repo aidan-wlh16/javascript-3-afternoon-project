@@ -18,7 +18,7 @@ let product = {
 }
 
 // code here
-
+productCopy = {...product}
 
 
 
@@ -30,7 +30,7 @@ let colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
 
 // code here
 
-
+colorsCopy = {...colors}
 
 
 ////////// PROBLEM 3 //////////
@@ -44,7 +44,9 @@ function addNums(num1, num2, num3) {
 }
 
 // code here
+result = {...numbers}
 
+addNums(result)
 
 ////////// PROBLEM 4 //////////
 
